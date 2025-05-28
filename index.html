@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dressify</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Dressify</h1>
+    <p>Explore One Dress at a Time</p>
+  </header>
+
+  <div class="viewer-container">
+    <img src="images/back.png" class="nav-icon" alt="Back" onclick="prevDress()" />
+    
+    <div class="dress-card" id="dressCard" onclick="showDetails(currentIndex)">
+      <!-- JS injects content -->
+    </div>
+
+    <img src="images/forward.png" class="nav-icon" alt="Front" onclick="nextDress()" />
+  </div>
+
+  <!-- Modal for dress details -->
+  <div id="detailsModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img id="modalImg" />
+      <h2 id="modalTitle"></h2>
+      <p id="modalDesc"></p>
+      <p><strong>₹<span id="modalPrice"></span></strong></p>
+    </div>
+  </div>
+<!-- Modal for dress details -->
+<div id="detailsModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img id="modalImg" />
+    <h2 id="modalTitle"></h2>
+    <p id="modalDesc"></p>
+    <p><strong>₹<span id="modalPrice"></span></strong></p>
+  </div>
+</div>
+<footer>
+  <div class="footer-container">
+    <p class="footer-brand">Dressify &copy; 2025</p>
+    <div class="footer-links">
+      <a href="#">Home</a>
+      <a href="#">Contact</a>
+      <a href="#">Privacy</a>
+    </div>
+  </div>
+</footer>
+
+  <script src="/script.js"></script>
+
+</body>
+</html>
