@@ -3,43 +3,43 @@ const dresses = [
     title: "Casual T-Shirt",
     desc: "Comfortable cotton T-shirt, perfect for daily wear.",
     price: 499,
-    img: "/images/causalTshirt.jpg"
+    img: "causalTshirt.jpg"
   },
   {
     title: "Denim Jacket",
     desc: "Classic blue denim jacket, great for all seasons.",
     price: 1199,
-    img: "/images/denimjacket.jpg"
+    img: "denimjacket.jpg"
   },
   {
     title: "Floral Dress",
     desc: "Lightweight floral dress ideal for summer outings.",
     price: 899,
-    img: "/images/floraldress.jpg"
+    img: "floraldress.jpg"
   },
   {
     title: "Formal Shirt",
     desc: "Stylish slim-fit shirt suitable for office and meetings.",
     price: 699,
-    img: "/images/formal.jpg"
+    img: "formal.jpg"
   },
   {
     title: "Hoodie Sweatshirt",
     desc: "Warm hoodie with a soft fleece interior.",
     price: 999,
-    img: "/images/hoodie.jpg"
+    img: "hoodie.jpg"
   },
   {
     title: "Traditional Kurta",
     desc: "Ethnic cotton kurta, perfect for festivals and occasions.",
     price: 749,
-    img: "/images/kurta.jpg"
+    img: "kurta.jpg"
   },
   {
     title: "Jeans Pant",
     desc: "Stretchable slim-fit jeans with stylish finish.",
     price: 1099,
-    img: "/images/jean.jpg"
+    img: "jean.jpg"
   }
 ];
 
